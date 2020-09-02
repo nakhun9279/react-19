@@ -6,7 +6,7 @@ import notify from './notify';
 
 function App() {
   const onClick = () => {
-    notify();
+    import('./notify').then(result => result.default());
   };
   return (
     <div className="App">
