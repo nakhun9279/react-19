@@ -13,6 +13,8 @@ function App() {
   const onClick = () => {
     setVisible(true);
   };
+  const onMouseOver = () => {
+    SplitMe.preload();};
   return (
     <div className="App">
       <header className="App-header">
